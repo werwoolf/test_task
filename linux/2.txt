@@ -1,0 +1,2 @@
+cd var/logs/                #переход в папку с файлом access.log
+grep '404' access.log       #вывод строк содержащих '404' 

@@ -1,0 +1,19 @@
+button{
+    width: 100px;
+    height: 20px;
+}
+
+button:active {
+    color: rgb(17, 0, 255);
+    background-color: chartreuse;
+}
+
+button:disabled {
+    color: rgb(238, 255, 0);
+    background-color: chartreuse;
+}
+
+button:danger {
+    color: rgb(9, 255, 0);
+    background-color: chartreuse;
+}

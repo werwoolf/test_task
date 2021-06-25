@@ -1,0 +1,7 @@
+cd C:\Users\Sergey\git                                       #выбираем папку для клонирования репозитория
+git clone  git@example.com:example/test.git                  #клонируем удаленный репозиторий
+git remote add origin git@example.com:example/test.git       #подключаем удаленный репозиторий
+git checkout dev                                             #начать работать с веткой dev
+echo "### May be in future" >> README.md                     #создать файл 
+git comit -m "test"                                          #указываем коментарий к изменениям
+git push                                                     #выгружаем изменения

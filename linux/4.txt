@@ -1,0 +1,9 @@
+chmod a-rwx       var/www/html/index.html     #отобрать все права у всех пользователей 
+chown user        var/www/html/index.html     #сделать user владельцем файла
+cnmod u+rw        var/www/html/index.html     #дать user право чтения/записи
+chown :www-data   var/www/html/index.html     #установить в группу www-data владельцем
+cnmod g+r         var/www/html/index.html     #дать www-data право чтения
+
+
+ 
+

@@ -1,0 +1,2 @@
+cd /var/www/html                                                   #переход в нужную папку
+echo "<html><head><title>503</title></head></html>" > 503.html     #создание файла
