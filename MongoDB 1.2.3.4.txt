@@ -1,4 +1,4 @@
-1. db.posts.find().skip(5).limit(5)
+﻿1. db.posts.find().skip(5).limit(5)
 2. db.posts.find({"propetries.like": {$gt : 100}})
 3. db.posts.insertOne({"test": 123})
 4.1 db.posts.distinct('propetries.author')
